@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(./images/capture.png);
+	font-family: 'Poppins';
+}
+
+main {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	justify-items: center;
+	text-align: center;
+	border-radius: 6%;
+	margin: 200px auto;
+	padding: 100px 100px;
+	width: 250px;
+	height: 300px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 3px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 3px rgba(0, 0, 0, 0);
+}
+
+
+
+.mypic img {
+	position: relative;
+	border-radius: 50%;
+	width: 175px;
+	bottom: 20px;
+}
+
+.info h1 {
+	color: black;
+	font-size: 40px;
+}
+
+.info p {
+	color: black;
+	font-size: 25px;
+}
+
+.btns {
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 10px 10px;
+}
+
+button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background-color: lightgray;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 11px 25px;
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: darkgray;
+}
+
+button:active {
+	background-color: darkgray;
+}
+
+.likes {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	top: 10px;
+	cursor: pointer;
+}
+
+.likes p {
+	font-size: 25px;
+	padding: 4px;
+}
+
+.fa-heart {
+	color: red;
+	font-size: 25px;
+	margin: 4px;
+	padding: 5px;
+	bottom: 1px;
+}
+
+.icons {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: blue;
+	font-size: 25px;
+	top: 25px;
+}
+
+@media only screen and (max-width: 600px){
+	body {
+	background-color: darkgray;
+	font-family: 'Poppins';
+}
+
+main {
+	background-color: white;
+	flex-direction: row;
+	justify-content: space-evenly;
+	justify-items: center;
+	border-radius: 23px;
+	margin: 144px auto;
+	padding: 116px 78px;
+	width: 80px;
+	height: 229px;
+	-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 3px rgba(0, 0, 0, 0);
+	box-shadow: 0px 10px 13px -7px #000000, 5px 5px 5px 3px rgba(0, 0, 0, 0);
+}
+
+.container{
+	position: relative;
+	margin: 22px;
+	top: -74%;
+}
+
+.mypic{
+	position: relative;
+	font-size: 92px;
+	bottom: -58px;
+}
+
+.mypic img {
+	position: relative;
+	border-radius: 50%;
+	width: 120px;
+	bottom: 14px;
+}
+
+.info h1 {
+	color: black;
+	font-size: 40px;
+}
+
+.info p {
+	color: black;
+	font-size: 25px;
+}
+
+.btns {
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 5px 10px;
+}
+
+button {
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background-color: lightgray;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 11px 25px;
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: darkgray;
+}
+
+button:active {
+	background-color: darkgray;
+}
+
+.likes {
+	justify-content: center;
+	top: 10px;
+	cursor: pointer;
+}
+
+.likes p {
+	font-size: 25px;
+	padding: 4px;
+}
+
+.fa-heart {
+	color: red;
+	font-size: 25px;
+	margin: 4px;
+	padding: 5px;
+	bottom: 1px;
+}
+
+.icons {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: blue;
+	font-size: 25px;
+	top: 25px;
+}
+}
